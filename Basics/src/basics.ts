@@ -1,5 +1,5 @@
 
-function add(n1: number, n2: number, showResult: boolean, phrase: string){
+function addNumbers(n1: number, n2: number, showResult: boolean, phrase: string){
     // Vanilla javascript solution for exception handling
     // if(typeof n1 !== 'number' || typeof n2 !== 'number'){
     //     throw Error('Incorrect input');
@@ -13,10 +13,11 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string){
     }
 }
 
+
 const number1 = 5;
 const number2 = 2.5;
-const printResult = true;
+const printResults = true;
 const resultPhrase = 'Result is: ';
 
-add(number1, number2, printResult, resultPhrase);
+addNumbers(number1, number2, printResults, resultPhrase);
 

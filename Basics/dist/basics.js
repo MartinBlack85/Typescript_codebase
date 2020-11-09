@@ -1,9 +1,10 @@
-function add(n1, n2, showResult, phrase) {
+"use strict";
+function addNumbers(n1, n2, showResult, phrase) {
     // Vanilla javascript solution for exception handling
     // if(typeof n1 !== 'number' || typeof n2 !== 'number'){
     //     throw Error('Incorrect input');
     // }
-    var result = n1 + n2;
+    const result = n1 + n2;
     if (showResult) {
         console.log(phrase + result);
     }
@@ -11,8 +12,8 @@ function add(n1, n2, showResult, phrase) {
         return result;
     }
 }
-var number1 = 5;
-var number2 = 2.5;
-var printResult = true;
-var resultPhrase = 'Result is: ';
-add(number1, number2, printResult, resultPhrase);
+const number1 = 5;
+const number2 = 2.5;
+const printResults = true;
+const resultPhrase = 'Result is: ';
+addNumbers(number1, number2, printResults, resultPhrase);
